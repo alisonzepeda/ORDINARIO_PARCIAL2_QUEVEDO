@@ -1,23 +1,36 @@
 .form {
     margin-top: 5%;
-    width: 40%;
+    width: 35%;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    background-color: #e5e5e5;
 }
 
+.registro {
+    text-align: start;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 6px;
+}
+
+.cuadro {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
 .form label {
     display: block;
     margin-bottom: 5px;
+    color: #262626;
 }
 
-.form input[type="text"],
-.form input[type="email"] {
-    width: 100%;
-    padding: 10px;
+input{
+    width: 90%;
+    padding: 13px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
 }
 
 .form .boton {
@@ -28,6 +41,7 @@ p {
     text-align: start;
     margin-top: 20px;
 }
+
 .form .boton button {
     background-color: #4447ce;
     color: white;
@@ -42,10 +56,16 @@ p {
 }
 
 table {
-    width: 50%;
+    width: 60%;
     border-collapse: collapse;
+    background-color: #c7783f;
+    padding: 15px
 
 }
+
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid rgb(47, 47, 47);
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
 }
